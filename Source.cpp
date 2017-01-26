@@ -73,7 +73,7 @@ void Merge(double arr[], int l, int m, int r)
 
 int main()
 {
-	//to pause cmd prmpt
+	
 	int n = 10;
 	double *testArray = new double[n];
 	for (int i = 0; i < n; i++)
@@ -94,6 +94,8 @@ int main()
 		cout << i + 1 << ": -> " << testArray[i] << endl;
 	}
 	delete[] testArray;
+	
+	//to pause cmd prmpt
 	int userResponse;
 	cout << "Exiting...\n";
 	cin >> userResponse;
